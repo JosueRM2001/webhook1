@@ -47,9 +47,9 @@ docker pull erickjrm/programwebhook:latest
 ```
 
 **Step #3**
-**Run the Docker container:**
+**Run the url in postman:**
 
-Then run the following command, which generates the container and port.
+Then run the following command, in postman.
 
 ```bash
 https://localhost:7251/webhook
