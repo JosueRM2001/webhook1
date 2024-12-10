@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "NmsedptTq68=",
+  "dgSpecHash": "5GnRPJgbFIA=",
   "success": true,
   "projectFilePath": "C:\\Users\\USUARIO\\source\\repos\\webhook\\webhook.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\microsoft.visualstudio.azure.containers.tools.targets.1.21.0.nupkg.sha512"
+  ],
   "logs": []
 }

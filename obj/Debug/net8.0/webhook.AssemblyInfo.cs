@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("fa78f20b-dcfa-4c10-8902-5a9930df725c")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("webhook")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5137ae3a9092f68978de26d601763c6c5918d3f0")]
 [assembly: System.Reflection.AssemblyProductAttribute("webhook")]
 [assembly: System.Reflection.AssemblyTitleAttribute("webhook")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
