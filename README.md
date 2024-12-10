@@ -15,8 +15,7 @@ Es un programa sencillo para mostrar cómo funciona un programa en el lenguaje d
 ## Requerimientos para el Desarrollo
 - **Docker Desktop** (si lo quieres correr en un contenedor)
 - **Visual Studio C#** (opcional, pero recomendado)
-- **Python**(requerido y recomendado)
-- **La extensión Python para Visual Studio Code** (para mejorar el soporte y el resaltado de sintaxis).
+- **Webhook**(requerido y recomendado)
 - **GitHub Desktop** (si quieres clonar y usar el proyecto)
   
   ```bash
@@ -53,8 +52,7 @@ docker pull erickjrm/programwebhook:latest
 Luego ejecuta el siguiente comando, que genera el contenedor y el puerto.
 
 ```bash
-
-docker run -d -p 8080:80 --name webhook erickjrm/programwebhook:latest
+https://localhost:7251/webhook
 ```
 
 **Paso #4**
