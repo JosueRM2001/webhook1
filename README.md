@@ -14,7 +14,7 @@ Es un programa sencillo para mostrar cómo funciona un programa en el lenguaje d
 
 ## Requerimientos para el Desarrollo
 - **Docker Desktop** (si lo quieres correr en un contenedor)
-- **Visual Studio Code** (opcional, pero recomendado)
+- **Visual Studio C#** (opcional, pero recomendado)
 - **Python**(requerido y recomendado)
 - **La extensión Python para Visual Studio Code** (para mejorar el soporte y el resaltado de sintaxis).
 - **GitHub Desktop** (si quieres clonar y usar el proyecto)
