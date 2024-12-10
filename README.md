@@ -1,69 +1,69 @@
 # Webhook
-Este es un proyecto que fue desarrollado con java en una arquitectura Webhook.
+This is a project that was developed with java in a Webhook architecture.
 
-## Descripción
-Este proyecto muestra una página en la cual dará la bienvenida con un mensaje atraves postman. 
-Es un programa sencillo para mostrar cómo funciona un programa en el lenguaje de programación con un estilo de arquitectura.
+## Description
+This project shows a page that will welcome you with a message through postman.
+It is a simple program to show how a program works in the programming language with an architecture style.
 
-## Tecnologías Utilizadas
-**Contiene lo Siguiente**
-- Visual Studio C# (version mas actual)
+## Technologies Used
+**Contains the Following**
+- Visual Studio C# (most current version)
 - Docker
 - Webhook
 - Postman
 
-## Requerimientos para el Desarrollo
-- **Docker Desktop** (si lo quieres correr en un contenedor)
-- **Visual Studio C#** (opcional, pero recomendado)
-- **Webhook**(requerido y recomendado)
-- **GitHub Desktop** (si quieres clonar y usar el proyecto)
-  
-  ```bash
-  https://www.docker.com/products/docker-desktop/
-  ```
-  
-- **Docker hub** (si quieres clonar y usar el proyecto)
-  
-  ```bash
-  https://hub.docker.com/layers/erickjrm/programwebhook/latest/images/sha256-c2e9d88dbf05677cc805e858517ecb6bc536286a54578d958888bcc24ba4809a?context=repo
-  ```
+## Development Requirements
+- **Docker Desktop** (if you want to run it in a container)
+- **Visual Studio C#** (optional, but recommended)
+- **Webhook**(required and recommended)
+- **GitHub Desktop** (if you want to clone and use the project)
 
-## Intruciciones para ejecutar el proyecto
-## Pasos para ejecutar
-- **Paso #1**
-  **Clonar este repositorio**
-Si aún no ha clonado el repositorio, puede hacerlo con el siguiente link:
+```bash
+https://www.docker.com/products/docker-desktop/
+```
 
- ```bash
+- **Docker hub** (if you want to clone and use the project)
+
+```bash
+https://hub.docker.com/layers/erickjrm/programwebhook/latest/images/sha256-c2e9d88dbf05677cc805e858517ecb6bc536286a54578d958888bcc24ba4809a?context=repo
+```
+
+## Instructions to run the project
+## Steps to run
+- **Step #1**
+**Clone this repository**
+If you have not yet cloned the repository, you can do so with the following link:
+
+```bash
 https://github.com/JosueRM2001/webhook1.git
- ```
-- **Paso #2**
-  **Construya la imagen de Docker**
+```
+- **Step #2**
+**Build the Docker image**
 
-Ejecuta el siguiente comando, que generará la imagen:
+Run the following command, which will generate the image:
 
 ```bash
 docker pull erickjrm/programwebhook:latest
 ```
 
-**Paso #3**
-**Ejecute el contenedor Docker:**
+**Step #3**
+**Run the Docker container:**
 
-Luego ejecuta el siguiente comando, que genera el contenedor y el puerto.
+Then run the following command, which generates the container and port.
 
 ```bash
 https://localhost:7251/webhook
 ```
 
-**Paso #4**
+**Step #4**
 
-Abre Docker Desktop para ver si la imagen se creó correctamente y envíala a ejecutar para verla.
+Open Docker Desktop to see if the image was built successfully and send it to run to view it.
 
-**Paso #5**
+**Step #5**
 
-**Accede a la aplicación**: Si está ejecutándose, puedes acceder a la aplicación navegando a la
+**Access the application**: If it is running, you can access the application by navigating to the
 
-siguiente url en tu navegador web:
+following url in your web browser:
 
 ```bash
 https://localhost:7251/webhook
